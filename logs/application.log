@@ -1,0 +1,408 @@
+2026-01-27 16:58:34 [main] INFO  c.xyz.lastdemo.LastdemoApplication - Starting LastdemoApplication using Java 24.0.1 with PID 23120 (C:\Users\rohit\Downloads\lastdemo\lastdemo\target\classes started by rohit in C:\Users\rohit\Downloads\lastdemo)
+2026-01-27 16:58:34 [main] DEBUG c.xyz.lastdemo.LastdemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-27 16:58:34 [main] INFO  c.xyz.lastdemo.LastdemoApplication - The following 1 profile is active: "dev"
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 189 ms. Found 8 JPA repository interfaces.
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ChatMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ConversationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.NotificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ReviewRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.SkillCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.WorkerProfileRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.WorkerSkillRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 16:58:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-01-27 16:58:37 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-01-27 16:58:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-27 16:58:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27 16:58:37 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3294 ms
+2026-01-27 16:58:37 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27 16:58:37 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-27 16:58:38 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27 16:58:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-27 16:58:38 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43cf97a8
+2026-01-27 16:58:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-27 16:58:38 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-27 16:58:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/authdb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: authdb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27 16:58:40 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table chat_messages (
+        id bigint generated by default as identity,
+        attachment_url varchar(500),
+        content varchar(2000) not null,
+        created_at timestamp(6) not null,
+        is_read boolean not null,
+        message_type varchar(255) check ((message_type in ('TEXT','IMAGE','FILE','SYSTEM'))),
+        read_at timestamp(6),
+        conversation_id bigint not null,
+        sender_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table conversations (
+        id bigint generated by default as identity,
+        consumer_unread_count integer,
+        created_at timestamp(6) not null,
+        is_active boolean not null,
+        last_message varchar(500),
+        last_message_at timestamp(6),
+        updated_at timestamp(6),
+        worker_unread_count integer,
+        consumer_id bigint not null,
+        worker_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table notifications (
+        id bigint generated by default as identity,
+        action_url varchar(500),
+        created_at timestamp(6) not null,
+        is_read boolean not null,
+        message varchar(500) not null,
+        read_at timestamp(6),
+        related_entity_id bigint,
+        title varchar(200) not null,
+        notification_type varchar(255) not null check ((notification_type in ('NEW_MESSAGE','NEW_REVIEW','JOB_REQUEST','JOB_ACCEPTED','JOB_COMPLETED','PAYMENT_RECEIVED','PROFILE_UPDATE','SYSTEM'))),
+        user_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table reviews (
+        id bigint generated by default as identity,
+        comment varchar(1000),
+        created_at timestamp(6) not null,
+        helpful_count integer,
+        is_verified boolean not null,
+        job_id bigint,
+        rating numeric(2,1) not null,
+        updated_at timestamp(6),
+        consumer_id bigint not null,
+        worker_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table skill_categories (
+        id bigint generated by default as identity,
+        created_at timestamp(6) not null,
+        description varchar(500),
+        display_order integer,
+        icon_url varchar(500),
+        is_active boolean not null,
+        name varchar(100) not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists users 
+       add column worker_id varchar(255)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table worker_profiles (
+        id bigint generated by default as identity,
+        address varchar(200),
+        average_rating numeric(3,2),
+        bio varchar(500),
+        city varchar(50),
+        created_at timestamp(6) not null,
+        experience_years integer,
+        full_name varchar(100) not null,
+        government_id_number varchar(50),
+        government_id_type varchar(50),
+        hourly_rate numeric(10,2),
+        is_available boolean not null,
+        is_verified boolean not null,
+        languages_spoken varchar(200),
+        phone_number varchar(15),
+        pincode varchar(10),
+        profile_picture_url varchar(500),
+        state varchar(50),
+        total_jobs_completed integer,
+        total_reviews integer,
+        updated_at timestamp(6),
+        user_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create table worker_skills (
+        id bigint generated by default as identity,
+        created_at timestamp(6) not null,
+        is_primary boolean not null,
+        proficiency_level varchar(255) check ((proficiency_level in ('BEGINNER','INTERMEDIATE','ADVANCED','EXPERT'))),
+        years_of_experience integer,
+        category_id bigint not null,
+        worker_id bigint not null,
+        primary key (id)
+    )
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_conversation_created 
+       on chat_messages (conversation_id, created_at)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_worker_consumer 
+       on conversations (worker_id, consumer_id)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_user_created 
+       on notifications (user_id, created_at)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_user_read 
+       on notifications (user_id, is_read)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_worker_id 
+       on reviews (worker_id)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    create index idx_consumer_id 
+       on reviews (consumer_id)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists skill_categories 
+       drop constraint if exists UK27adsrrs9xq470bq9eui9x03c
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - constraint "uk27adsrrs9xq470bq9eui9x03c" of relation "skill_categories" does not exist, skipping
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists skill_categories 
+       add constraint UK27adsrrs9xq470bq9eui9x03c unique (name)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_profiles 
+       drop constraint if exists UKljmkjf5tk6w2jt5w4q7rnv3er
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - constraint "ukljmkjf5tk6w2jt5w4q7rnv3er" of relation "worker_profiles" does not exist, skipping
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_profiles 
+       add constraint UKljmkjf5tk6w2jt5w4q7rnv3er unique (user_id)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_skills 
+       drop constraint if exists UKteyg2g7i2vdsjj64nglde2m7w
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2026-01-27 16:58:40 [main] WARN  org.hibernate.orm.jdbc.warn - constraint "ukteyg2g7i2vdsjj64nglde2m7w" of relation "worker_skills" does not exist, skipping
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_skills 
+       add constraint UKteyg2g7i2vdsjj64nglde2m7w unique (worker_id, category_id)
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists chat_messages 
+       add constraint FKc8ljv426x8fj9tcywei40stu9 
+       foreign key (conversation_id) 
+       references conversations
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists chat_messages 
+       add constraint FKgiqeap8ays4lf684x7m0r2729 
+       foreign key (sender_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists conversations 
+       add constraint FKowa3iqsj0wfewdy3ei987llir 
+       foreign key (consumer_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists conversations 
+       add constraint FKhin7eddf6tkyvj3f47i2dano2 
+       foreign key (worker_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists notifications 
+       add constraint FK9y21adhxn0ayjhfocscqox7bh 
+       foreign key (user_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists reviews 
+       add constraint FKhq6ooqqs2ytu5i5gbdyigy517 
+       foreign key (consumer_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists reviews 
+       add constraint FKanop8qniqlmgba1gcftibdqsb 
+       foreign key (worker_id) 
+       references worker_profiles
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_profiles 
+       add constraint FKcnisf432fdaiietnktm4a06nt 
+       foreign key (user_id) 
+       references users
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_skills 
+       add constraint FK7basxbrhf6v1jo1w4jx06hcck 
+       foreign key (category_id) 
+       references skill_categories
+2026-01-27 16:58:40 [main] DEBUG org.hibernate.SQL - 
+    alter table if exists worker_skills 
+       add constraint FK81a26ylipyv57q2g47rhge1ds 
+       foreign key (worker_id) 
+       references worker_profiles
+2026-01-27 16:58:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27 16:58:40 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27 16:58:40 [main] DEBUG c.x.l.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-01-27 16:58:40 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 16:58:40 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-01-27 16:58:40 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-27 16:58:41 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatController' defined in file [C:\Users\rohit\Downloads\lastdemo\lastdemo\target\classes\com\xyz\lastdemo\controller\ChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'chatService' defined in file [C:\Users\rohit\Downloads\lastdemo\lastdemo\target\classes\com\xyz\lastdemo\service\ChatService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'notificationService' defined in file [C:\Users\rohit\Downloads\lastdemo\lastdemo\target\classes\com\xyz\lastdemo\service\NotificationService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.boot.websocket.autoconfigure.servlet.WebSocketMessagingAutoConfiguration$SpringBootWebSocketMessageBrokerConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jacksonJsonMapper' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'jacksonJsonMapper' parameter 0: Error creating bean with name 'jsonMapperBuilder' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'jsonMapperBuilder' parameter 0: Error creating bean with name 'standardJsonMapperBuilderCustomizer' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration$JacksonJsonMapperBuilderCustomizerConfiguration.class]: Unsatisfied dependency expressed through method 'standardJsonMapperBuilderCustomizer' parameter 0: Error creating bean with name 'spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties': Could not bind properties to 'JacksonProperties' : prefix=spring.jackson, ignoreInvalidFields=false, ignoreUnknownFields=true
+2026-01-27 16:58:41 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27 16:58:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-27 16:58:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-27 16:58:41 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-27 16:58:41 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-27 16:58:41 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.jackson.serialization' to java.util.Map<tools.jackson.databind.SerializationFeature, java.lang.Boolean>:
+
+    Reason: failed to convert java.lang.String to tools.jackson.databind.SerializationFeature (caused by java.lang.IllegalArgumentException: No enum constant tools.jackson.databind.SerializationFeature.write-dates-as-timestamps)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    CLOSE_CLOSEABLE
+    EAGER_SERIALIZER_FETCH
+    FAIL_ON_EMPTY_BEANS
+    FAIL_ON_ORDER_MAP_BY_INCOMPARABLE_KEY
+    FAIL_ON_SELF_REFERENCES
+    FAIL_ON_UNWRAPPED_TYPE_IDENTIFIERS
+    FLUSH_AFTER_WRITE_VALUE
+    INDENT_OUTPUT
+    ORDER_MAP_ENTRIES_BY_KEYS
+    USE_EQUALITY_FOR_OBJECT_ID
+    WRAP_EXCEPTIONS
+    WRAP_ROOT_VALUE
+    WRITE_CHAR_ARRAYS_AS_JSON_ARRAYS
+    WRITE_EMPTY_JSON_ARRAYS
+    WRITE_SELF_REFERENCES_AS_NULL
+    WRITE_SINGLE_ELEM_ARRAYS_UNWRAPPED
+
+2026-01-27 17:00:11 [main] INFO  c.xyz.lastdemo.LastdemoApplication - Starting LastdemoApplication using Java 24.0.1 with PID 9940 (C:\Users\rohit\Downloads\lastdemo\lastdemo\target\classes started by rohit in C:\Users\rohit\Downloads\lastdemo)
+2026-01-27 17:00:11 [main] DEBUG c.xyz.lastdemo.LastdemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-27 17:00:11 [main] INFO  c.xyz.lastdemo.LastdemoApplication - The following 1 profile is active: "dev"
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 141 ms. Found 8 JPA repository interfaces.
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ChatMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ConversationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.NotificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.ReviewRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.SkillCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.WorkerProfileRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xyz.lastdemo.repository.WorkerSkillRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-01-27 17:00:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2026-01-27 17:00:14 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-01-27 17:00:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-27 17:00:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27 17:00:14 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2200 ms
+2026-01-27 17:00:14 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27 17:00:14 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-27 17:00:15 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27 17:00:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-27 17:00:15 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50d6af87
+2026-01-27 17:00:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-27 17:00:15 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-27 17:00:15 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/authdb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: authdb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27 17:00:16 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27 17:00:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27 17:00:16 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27 17:00:16 [main] DEBUG c.x.l.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-01-27 17:00:16 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 17:00:16 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-01-27 17:00:16 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-27 17:00:17 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27 17:00:18 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/ws/**] in 'stompWebSocketHandlerMapping'
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.AdminController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.AuthController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.ChatController:
+	{[MESSAGE],[/chat.typing]}: handleTypingIndicator(TypingIndicatorPayload,SimpMessageHeaderAccessor)
+	{[MESSAGE],[/chat.send]}: handleWebSocketMessage(ChatMessagePayload,SimpMessageHeaderAccessor)
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.DashboardController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.NotificationController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.x.l.c.WorkerController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	o.s.b.w.a.e.BasicErrorController:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	o.s.w.a.OpenApiWebMvcResource:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	o.s.w.u.SwaggerConfigResource:
+	
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 36 mappings in 'requestMappingHandlerMapping'
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 17:00:18 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 17:00:19 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - clientOutboundChannel added SubProtocolWebSocketHandler[StompSubProtocolHandler[v10.stomp, v11.stomp, v12.stomp]]
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - clientInboundChannel added WebSocketAnnotationMethodMessageHandler[prefixes=[/app/]]
+2026-01-27 17:00:19 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - clientInboundChannel added SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - brokerChannel added SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]
+2026-01-27 17:00:19 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]]
+2026-01-27 17:00:19 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - clientInboundChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2026-01-27 17:00:19 [main] DEBUG org.springframework.web.SimpLogging - brokerChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2026-01-27 17:00:19 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-01-27 17:00:19 [main] INFO  c.xyz.lastdemo.LastdemoApplication - Started LastdemoApplication in 7.905 seconds (process running for 8.403)
+2026-01-27 17:00:19 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-01-27 17:00:19 [main] INFO  com.xyz.lastdemo.config.DataSeeder - Admin user already exists: admin@xyz.com
+2026-01-27 17:01:19 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27 17:01:33 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - clientOutboundChannel removed SubProtocolWebSocketHandler[StompSubProtocolHandler[v10.stomp, v11.stomp, v12.stomp]]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - clientInboundChannel removed WebSocketAnnotationMethodMessageHandler[prefixes=[/app/]]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - clientInboundChannel removed SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - brokerChannel removed SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7bf185b4]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - clientInboundChannel removed UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] DEBUG org.springframework.web.SimpLogging - brokerChannel removed UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-27 17:01:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
